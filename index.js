@@ -7,16 +7,24 @@
 // }
 
 // 2. Запросить 2 числа и найти только наибольший общий делитель.
-let num_start = parseInt(prompt("Enter start number"));
-let num_end = parseInt(prompt("Enter end number"));
-while (num2 !== 0) {
-    let temp = num_end;
-    num_end = num_start % num_end;
-    num_start = temp;
-}
-alert(num_start);
+// let num_start = parseInt(prompt("Enter start number"));
+// let num_end = parseInt(prompt("Enter end number"));
+// while (num2 !== 0) {
+//     let temp = num_end;
+//     num_end = num_start % num_end;
+//     num_start = temp;
+// }
+// alert(num_start);
 
 // 3. Запросить у пользователя число и вывести все делители этого числа.
-
+// let number = parseInt(prompt("Введите число:"));
+// for (let i = 1; i <= number; i++) {
+//     if (number % i === 0) {
+//         alert(i);
+//     }
+// }
 
 // 4. Определить количество цифр в введенном числе.
+// let number = parseInt(prompt("Enter a number"));
+// let count_number = number.length;
+// alert(count_number);
